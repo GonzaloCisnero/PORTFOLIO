@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+    <!--link de bootstrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+    <!--link de fuentes de letras H1-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--link de fuentes de letras H2 - h3-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+
+<body>
+
+    <header  class="container-fluid">
+
+      <!--Navegador y Anclas-->
+
+      <nav  class="navbar navbar-dark bg-dark fixed-top">
+
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#"><h3><i class="bi bi-strava col-md-6"></i></h3></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            
+            <span class="navbar-toggler-icon"></span>
+          
+          </button>
+          
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            
+            <div class="offcanvas-header">
+              
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+             
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            
+            </div>
+           
+            <div class="offcanvas-body">
+              
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                
+                <li class="nav-item">
+                  
+                  <a class="nav-link active text-black" aria-current="page" href="#home">Home</a>
+                
+                </li>
+                
+                <li class="nav-item">
+                  
+                  <a class="nav-link text-black" href="#presentacion">Acerca De Mi</a>
+                
+                </li>
+
+                <li class="nav-item">
+
+                  <a class="nav-link text-black" href="#portfolio">Portfolio</a>
+                
+                </li>
+
+                <li class="nav-item">
+                 
+                  <a class="nav-link active text-black" aria-current="page" href="#certificado">Certificados</a>
+                
+                </li>
+              
+              </ul>
+            
+            </div>
+          
+          </div>
+        
+        </div>
+      
+      </nav>
+
+    </header>
+
+    <main id="cuerpo" class="row margenmain col-12 col-md-8">
+
+      <!--presentacion-->
+
+      <section id="presentacion" class="col-12 col-md-12" >
+
+          <h1 class="col-12" id="home">Hola!,Soy Gonzalo Cisnero</h1>
+
+         <img id="perfil" class="col-12 col-md-12 offset-md-2"  src="img/fotoperfil.jpg" alt="fotoperfil">    
+
+         <h2 class="col-12 col-md-12 offset-md-2 text-center ">Desarrollador Web</h2>
+
+         <p class="col-12 col-md-12 offset-md-2 text-center"><i>Da siempre lo mejor que tienes. Lo que plantes ahora, lo cosecharás más tarde. </i></p>
+      
+      </section>
+
+      <!--habilidades imagenes-->
+
+      <section id="herramientas" class="col-12 col-md-8">
+
+        <div class="row mt-5 col-10 offset-1 col-md-12 offset-md-2">
+
+          <h2 class="text-center">Habilidades<i class="bi bi-tools"></i></h2>
+
+         <img class="col-md-12" src="img/jscsshtml.png" alt="herramientas">
+
+        </div>
+
+        <div id="hobbies" class=" row mt-5 col-md-12 offset-md-2">
+  
+         <h2 class="text-center col-md-12">Hobbies</h2>
+    
+         <p class="text-center"><i class="bi bi-globe2"></i> Manejo de redes sociales</p> 
+
+         <p class="text-center"><i class="bi bi-card-image"></i> Photoshop</p>
+
+         <p class="text-center"><i class="bi bi-bicycle"></i> Deportes</p>
+
+         <p class="text-center"><i class="bi bi-tv"></i> Series</p>
+
+         </div>
+
+       </section>
+       
+       <!--Porfolio . imagenes-->
+      
+    <section id="portfolio" class="row mt-5 col-md-12 offset-md-2">
+    
+       <h2 class="text-center">Portfolio</h2>
+
+      <div class="col-12 col-md-4">
+       
+        <div class="card mt-5 col-12">
+
+          <img src="img/xiaomi.png" class="col-8 col-sm-6 col-md-12 offset-2 offset-sm-3 offset-md-0 mt-5 mb-5" alt="xiaomi">
+
+          <div class="card-body">
+
+            <h5 class="col-12 card-title text-center">Xiaomi</i></h5>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button"><h6>Ver</h6></button>
+            </div>
+           
+            </div>
+
+         </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+
+        <div class="card mt-5 col-12">
+
+          <img src="img/pencil.png" class="col-8 col-sm-6 col-md-12 offset-2 offset-sm-3 offset-md-0 mt-5 mb-5"  alt="pencil">
+
+          <div class="card-body">
+
+            <h5 class="card-title text-center">Pencil</h5>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button"><h6>Ver</h6></button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-12 col-md-4">
+
+        <div class="card mt-5 col-12">
+
+          <img src="img/virsel.png"class="col-8 col-sm-6 col-md-12 offset-2 offset-sm-3 offset-md-0 mt-5 mb-5">
+
+          <div class="card-body">
+
+            <h5 class="card-title text-center">Virsel</h5>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button"><h6>Ver</h6></button>
+            </div>
+          
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+     <!--Certificados-->
+    <section id="certificado" class="row mt-5 col-12 col-md-12 offset-md-2" >
+
+      <h2 class="col-12 text-center col-md-12">Certificados</h2>
+
+      
+      <div class="col-12 col-md-4">
+       
+        <div class="card mt-5 col-12">
+
+          <img src="img/certificado.jfif" class="col-8 col-sm-6 col-md-12 offset-2 offset-sm-3 offset-md-0 mt-5 mb-5" alt="xiaomi">
+
+          <div class="card-body">
+
+            <h5 class="col-12 card-title text-center">HTML</i></h5>
+
+            <div class="d-grid gap-2">
+             
+              <button class="btn btn-primary" type="button"><h6>Ver</h6></button>
+           
+            </div>
+           
+            </div>
+
+         </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+
+        <div class="card mt-5 col-12">
+
+          <img src="img/certificado.jfif" class="col-8 col-sm-6 col-md-12 offset-2 offset-sm-3 offset-md-0 mt-5 mb-5"  alt="pencil">
+
+          <div class="card-body">
+
+            <h5 class="card-title text-center">JS</h5>
+
+            <div class="d-grid gap-2">
+              
+              <button class="btn btn-primary" type="button"><h6>Ver</h6></button>
+            
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-12 col-md-4">
+
+        <div class="card mt-5 col-12">
+
+          <img src="img/certificado.jfif"class="col-8 col-sm-6 col-md-12 offset-2 offset-sm-3 offset-md-0 mt-5 mb-5">
+
+          <div class="card-body">
+
+            <h5 class="card-title text-center">CSS</h5>
+
+            <div class="d-grid gap-2">
+              
+              <button class="btn btn-primary" type="button"><h6>Ver</h6></button>
+           
+            </div>
+          
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    </main>
+    
+    <!--Footer , logos-->
+
+    <footer>
+
+      <section id="fin">
+
+        <div class="text-center">
+
+          <p class="tituloFooter text-center">Mi perfil</p>
+
+          <p class="textoSecundarioFooter text-center"><i class="bi bi-strava"></i></p>
+
+          <p class="textoSecundarioFooter text-center">©Gonzalo Cisnero</p>
+
+      </div>
+
+      <div class="logos">
+
+
+        <a href="https://www.instagram.com/gonza.cisnero/?hl=es-la"target="_BLACK"><i class="bi bi-instagram" style="font-size: 2em;"></i></a>
+        <a href="https://ar.linkedin.com/in/gonzalo-cisnero-995b96229" target="_BLACK"><i class="bi bi-linkedin"style="font-size: 2em;" ></i></a>
+        <a href="https://api.whatsapp.com/send?phone=5491132365465" target="_blank"><i class="bi bi-whatsapp" style="font-size: 2em;"></i></a>
+        <a href="https://github.com/GonzaloCisnero" target="_black"><i class="bi bi-github" style="font-size: 2em;"></i></a>
+
+      </div>
+
+      </section>
+
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

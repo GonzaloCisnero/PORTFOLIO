@@ -1,0 +1,205 @@
+/*perfil*/
+#perfil{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+/*margen entre NAV y H1*/
+
+.margenmain {
+    margin-top: 19%;
+}
+
+/* letras perfil*/
+
+#presentacion h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#presentacion h2 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* letras habilidades*/
+
+#herramientas h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#herramientas ul li{
+     font-family: 'Montserrat', sans-serif;
+}
+
+/* Letras hobbies*/
+#hobbies {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#portfolio{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#certificado{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*footer*/
+
+footer{
+    background-color:black;
+}
+
+#fin{
+    margin-right: 10%;
+}
+
+#fin p{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+/*logos footer*/
+
+.logos{
+    margin-left: 33%;
+}
+
+.logos a{
+    color: #FFFFFF;
+}
+
+.logos i{
+    color: #FFFFFF;
+}
+
+.logos i:hover{
+
+    color: #FFDE15;
+    
+}
+
+
+/* MEDIA PARA RESPONSIVE CELULAR */
+@media (min-width: 425px) {
+    
+    #perfil {
+        height: 200px;
+        width: 200px;
+        margin-left: 25%;
+    }
+}
+
+/* MEDIA PARA RESPONSIVE TABLET */
+
+@media (min-width: 768px) {
+    
+    #perfil {
+        height: 300px;
+        width: 300px;
+        margin-left: 30%;
+    }
+
+    .margenmain {
+        margin-top: 10%;
+    }
+
+    #home{
+        margin-left: 30%;
+
+
+    }
+
+    #presentacion{
+        margin-left: 5%;
+    }
+
+    #herramientas{
+        margin-left: 25%;
+    }
+
+    #portfolio{
+        margin-left: 20%;
+    }
+    
+    #certificado{
+        margin-left: 20%;
+    }
+
+    #perfil {
+        height: 400px;
+        width: 400px;
+    }
+
+    .logos{
+        margin-left: 40%;
+    }
+
+
+
+}
+
+
+/* MEDIA PARA RESPONSIVE LAPTOP */
+
+@media (min-width: 1024px) {
+
+    #presentacion{
+        margin-left: 5%;
+    }
+
+    #presentacion p{
+        font-size: 2vw;
+        margin-left: 18%;
+    }
+
+    #herramientas{
+        margin-left: 25%;
+    }
+
+    #herramientas h2{
+        margin-left: 5%;
+    }
+
+    #herramientas img{
+        margin-left: 5%;
+    }
+
+    #herramientas p{
+        font-size: 2vw;
+        margin-left: 5%;
+    }
+
+    #portfolio{
+        margin-left: 23%;
+    }
+    
+    #certificado{
+        margin-left: 23%;
+    }
+
+    #perfil {
+        height: 400px;
+        width: 400px;
+        margin-left: 40%;
+    }
+
+    #home{
+        margin-left: 35%;
+    }
+
+    .logos{
+        margin-left: 43%;
+    }
+
+    #fin{
+        margin-left: 5%;
+    }
+
+    #fin p{
+        font-size: 2vw;
+    }
+
+}
+
+/*COLORIN COLORADO ESTE CUENTO SE A TERMINADO*/
